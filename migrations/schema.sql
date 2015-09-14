@@ -1,0 +1,8 @@
+CREATE TABLE city (
+  id INTEGER NOT NULL PRIMARY KEY,
+  upi_cache TEXT,
+  name VARCHAR(16) NOT NULL,
+  timezone VARCHAR(100) NOT NULL,
+  lat VARCHAR(100) NOT NULL,
+  lng VARCHAR(100) NOT NULL
+);
